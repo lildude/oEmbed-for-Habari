@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="plugin">
+	<name>oEmbed for Habari</name>
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
+	<author url="http://colinseymour.co.uk/">Colin Seymour</author>
+	<version>0.1</version>
+	<url>https://github.com/lildude/oEmbed-for-Habari</url>
+	<description><![CDATA[Embed content from certain providers using their oEmbed implementation and Habari's new support for shortcodes.]]></description>
+	<copyright>2013</copyright>
+	<guid></guid>
+	<help>
+		<value><![CDATA[<p>oEmbed for Habari allows you to embed content from certain providers using their oEmbed implementation and Habari's new support for shortcodes.</p>
+		<h2>Usage</h2>
+		<p>*** Coming soon ***  This will probably be something like [embed width=123 height=123 URL]</p>
+		<h2>Supported Sites</h2>
+		<p>The list of supported oEmbed providers is currently hardcoded and limited to the following list...
+			<ul>
+				<li>blip.tv</li>
+				<li>DailyMotion</li>
+				<li>Flickr</li>
+				<li>FunnyOrDie.com</li>
+				<li>Hulu</li>
+				<li>Instagram</li>
+				<li>Qik</li>
+				<li>Photobucket</li>
+				<li>PollDaddy</li>
+				<li>Revision3</li>
+				<li>Scribd</li>
+				<li>SlideShare</li>
+				<li>SoundCloud</li>
+				<li>SmugMug</li>
+				<li>Twitter</li>
+				<li>Viddler</li>
+				<li>Vimeo</li>
+				<li>YouTube (only public videos and playlists - "unlisted" and "private" videos will not embed)</li>
+			</ul></p>
+		]]></value>
+	</help>
+</pluggable> 
