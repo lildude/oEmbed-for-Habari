@@ -12,7 +12,7 @@ Usage
 
 This will probably be something like 
 
-[embed width=123 height=123 URL]
+[embed width=123 height=123]URL[/embed]
 
 Supported Sites
 ----------------
@@ -37,3 +37,14 @@ The list of supported oEmbed providers is currently hardcoded and limited to the
  * Viddler
  * Vimeo
  * YouTube (only public videos and playlists - "unlisted" and "private" videos will not embed)
+
+ TODO
+ ----
+
+ - Implement the basic functionality of the plugin
+ - Cache the returned HTML and save it somewhere for later retrieval... maybe add a new post->info field
+ - Create a config page in which the following settings can be set:
+ 	- custom default width & height
+ 	- add and remove other oembed URLs
+
+
